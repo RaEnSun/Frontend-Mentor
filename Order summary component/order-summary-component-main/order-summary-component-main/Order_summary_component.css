@@ -1,0 +1,134 @@
+body {
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-color: #E0E8FF;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    height: 300px;
+}
+
+
+html {
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+.card {
+    display: grid;
+    justify-content: center;
+    align-items: center;   
+    margin-top: 125px;
+    margin-bottom: auto;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 40px 40px 0px rgba(56, 41, 224, 0.18);
+}
+.img_hero {
+width: auto;
+}
+
+.Order {
+    margin-top: 40px;
+    font-weight: 900;
+    font-size: 25px;
+    color: #141E41;
+}
+
+.you {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #828282;
+}
+.plan_card {
+  display: flex;
+   margin-left: auto;
+    margin-right: auto;
+  align-items: center;
+  background-color: #f8f9fe;
+  border-radius: 15px;
+  padding: 20px;
+  width: 300px;
+  margin-top: 20px;
+}
+
+.icon_container {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.plan_info {
+  flex-grow: 1;
+}
+
+.plan_title {
+  font-weight: 800;
+  color: #1f2f56;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.plan_price {
+  color: #717fa6;
+  font-size: 15px;
+}
+.change_link {
+  color: #3829e0;
+  margin-left: 100px;
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: underline;
+}
+.Pay {
+    height: fit-content;
+    padding: 15px;
+    width: 345px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #E0E8FF;
+    background-color: #382AE1;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 700;
+    box-shadow: 0px 10px 20px 0px rgba(56, 41, 224, 0.35);
+    border: solid #382AE1;
+      transition: all 0.2s;
+}
+.Pay:active {
+    transform: translateY(2px);
+     background-color: #5548e6;
+      border: solid #5548e6;
+}
+.Cancel {
+      color: #7381a7;
+  font-size: 15px;
+  margin-bottom: 40px;
+    font-weight: 700;
+    width: 200px;
+     margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+     border: solid white;
+}
+
+@media (max-width: 450px){
+    .card{
+    transform: scale(0.9);
+    transform-origin: top center;
+    margin-top: 80px;
+    margin-left: -10px;
+    width: 430px;
+}
+}
